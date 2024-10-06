@@ -1,0 +1,252 @@
+[NX Daemon Server] - 2024-10-06T19:41:04.635Z - Started listening on: /var/folders/hp/1g730b9s65jc7yw69ryrhzb40000gn/T/1982b39d47aa545d9c37/d.sock
+[NX Daemon Server] - 2024-10-06T19:41:04.636Z - [WATCHER]: Subscribed to changes within: /Users/god/__n1__/n1monorepo (native)
+[NX Daemon Server] - 2024-10-06T19:41:04.638Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:41:04.638Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-10-06T19:41:04.639Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:41:04.639Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-10-06T19:41:04.639Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-10-06T19:41:04.640Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-10-06T19:41:04.641Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-10-06T19:41:04.641Z - [WATCHER]: Stopping the watcher for /Users/god/__n1__/n1monorepo (sources)
+[NX Daemon Server] - 2024-10-06T19:41:04.641Z - [WATCHER]: Stopping the watcher for /Users/god/__n1__/n1monorepo (outputs)
+[NX Daemon Server] - 2024-10-06T19:42:20.511Z - Started listening on: /var/folders/hp/1g730b9s65jc7yw69ryrhzb40000gn/T/1982b39d47aa545d9c37/d.sock
+[NX Daemon Server] - 2024-10-06T19:42:20.513Z - [WATCHER]: Subscribed to changes within: /Users/god/__n1__/n1monorepo (native)
+[NX Daemon Server] - 2024-10-06T19:42:20.518Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:42:20.518Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-10-06T19:42:20.519Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:42:20.519Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-10-06T19:42:20.574Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-06T19:42:20.641Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Could not load plugin @nx/jest/plugin
+LoadPluginError: Could not load plugin @nx/jest/plugin
+    at loadNxPluginAsync (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/loader.js:208:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async load (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:26:30)
+    at async consumeMessage (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-10-06T19:42:20.641Z - Done responding to the client null
+[NX Daemon Server] - 2024-10-06T19:42:20.641Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 122. Response time: 0.
+[NX Daemon Server] - 2024-10-06T19:42:20.642Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-10-06T19:43:08.712Z - [WATCHER]: _tmp_30004_932c2e9b355d2acb207463427542f27e was deleted
+[NX Daemon Server] - 2024-10-06T19:43:08.712Z - [WATCHER]: Processing file changes in outputs
+
+node:internal/process/promises:391
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+{
+  stack: 'LoadPluginError: Could not load plugin @nx/next/plugin\n' +
+    '    at loadNxPluginAsync (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/loader.js:208:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async load (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:26:30)\n' +
+    '    at async consumeMessage (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)',
+  message: 'Could not load plugin @nx/next/plugin',
+  cause: {
+    stack: 'TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined\n' +
+      '    at join (node:path:1175:7)\n' +
+      '    at Object.<anonymous> (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/@nx+next@18.3.5_@babel+core@7.25.7_@babel+traverse@7.25.7_@swc-node+register@1.8.0_@swc+core@_pgheyolhxs47a5dscxi5xta34a/node_modules/@nx/next/src/plugins/plugin.js:12:35)\n' +
+      '    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n' +
+      '    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n' +
+      '    at Module.load (node:internal/modules/cjs/loader:1208:32)\n' +
+      '    at Module._load (node:internal/modules/cjs/loader:1024:12)\n' +
+      '    at Module.require (node:internal/modules/cjs/loader:1233:19)\n' +
+      '    at require (node:internal/modules/helpers:179:18)\n' +
+      '    at Object.<anonymous> (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/@nx+next@18.3.5_@babel+core@7.25.7_@babel+traverse@7.25.7_@swc-node+register@1.8.0_@swc+core@_pgheyolhxs47a5dscxi5xta34a/node_modules/@nx/next/plugin.js:4:16)\n' +
+      '    at Module._compile (node:internal/modules/cjs/loader:1358:14)',
+    code: 'ERR_INVALID_ARG_TYPE',
+    message: 'The "path" argument must be of type string. Received undefined'
+  },
+  plugin: '@nx/next/plugin',
+  name: 'LoadPluginError'
+}
+
+Node.js v20.15.0
+[NX Daemon Server] - 2024-10-06T19:44:40.172Z - Started listening on: /var/folders/hp/1g730b9s65jc7yw69ryrhzb40000gn/T/1982b39d47aa545d9c37/d.sock
+[NX Daemon Server] - 2024-10-06T19:44:40.174Z - [WATCHER]: Subscribed to changes within: /Users/god/__n1__/n1monorepo (native)
+[NX Daemon Server] - 2024-10-06T19:44:40.175Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:44:40.175Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-10-06T19:44:40.176Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:44:40.177Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-10-06T19:44:40.234Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-06T19:44:40.297Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Could not load plugin @nx/jest/plugin
+LoadPluginError: Could not load plugin @nx/jest/plugin
+    at loadNxPluginAsync (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/loader.js:208:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async load (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:26:30)
+    at async consumeMessage (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-10-06T19:44:40.298Z - Done responding to the client null
+[NX Daemon Server] - 2024-10-06T19:44:40.298Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 120. Response time: 1.
+[NX Daemon Server] - 2024-10-06T19:44:40.299Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-10-06T19:45:02.902Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-10-06T19:45:02.902Z - [WATCHER]: Processing file changes in outputs
+
+node:internal/process/promises:391
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+{
+  stack: 'LoadPluginError: Could not load plugin @nx/next/plugin\n' +
+    '    at loadNxPluginAsync (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/loader.js:208:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async load (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:26:30)\n' +
+    '    at async consumeMessage (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)',
+  message: 'Could not load plugin @nx/next/plugin',
+  cause: {
+    stack: 'TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined\n' +
+      '    at join (node:path:1175:7)\n' +
+      '    at Object.<anonymous> (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/@nx+next@18.3.5_@babel+core@7.25.7_@babel+traverse@7.25.7_@swc-node+register@1.8.0_@swc+core@_pgheyolhxs47a5dscxi5xta34a/node_modules/@nx/next/src/plugins/plugin.js:12:35)\n' +
+      '    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n' +
+      '    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n' +
+      '    at Module.load (node:internal/modules/cjs/loader:1208:32)\n' +
+      '    at Module._load (node:internal/modules/cjs/loader:1024:12)\n' +
+      '    at Module.require (node:internal/modules/cjs/loader:1233:19)\n' +
+      '    at require (node:internal/modules/helpers:179:18)\n' +
+      '    at Object.<anonymous> (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/@nx+next@18.3.5_@babel+core@7.25.7_@babel+traverse@7.25.7_@swc-node+register@1.8.0_@swc+core@_pgheyolhxs47a5dscxi5xta34a/node_modules/@nx/next/plugin.js:4:16)\n' +
+      '    at Module._compile (node:internal/modules/cjs/loader:1358:14)',
+    code: 'ERR_INVALID_ARG_TYPE',
+    message: 'The "path" argument must be of type string. Received undefined'
+  },
+  plugin: '@nx/next/plugin',
+  name: 'LoadPluginError'
+}
+
+Node.js v20.15.0
+[NX Daemon Server] - 2024-10-06T19:46:52.591Z - Started listening on: /var/folders/hp/1g730b9s65jc7yw69ryrhzb40000gn/T/1982b39d47aa545d9c37/d.sock
+[NX Daemon Server] - 2024-10-06T19:46:52.592Z - [WATCHER]: Subscribed to changes within: /Users/god/__n1__/n1monorepo (native)
+[NX Daemon Server] - 2024-10-06T19:46:52.598Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:46:52.598Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-10-06T19:46:52.599Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:46:52.600Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-10-06T19:46:52.653Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-06T19:46:52.720Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Could not load plugin @nx/jest/plugin
+LoadPluginError: Could not load plugin @nx/jest/plugin
+    at loadNxPluginAsync (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/loader.js:208:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async load (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:26:30)
+    at async consumeMessage (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-10-06T19:46:52.720Z - Done responding to the client null
+[NX Daemon Server] - 2024-10-06T19:46:52.720Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 120. Response time: 0.
+[NX Daemon Server] - 2024-10-06T19:46:52.721Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-10-06T19:47:50.145Z - [WATCHER]: _tmp_34061_6ef29096b66169fef369f2c0cc099ff2 was deleted
+[NX Daemon Server] - 2024-10-06T19:47:50.145Z - [WATCHER]: Processing file changes in outputs
+
+node:internal/process/promises:391
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+{
+  stack: 'LoadPluginError: Could not load plugin @nx/next/plugin\n' +
+    '    at loadNxPluginAsync (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/loader.js:208:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async load (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:26:30)\n' +
+    '    at async consumeMessage (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)',
+  message: 'Could not load plugin @nx/next/plugin',
+  cause: {
+    stack: 'TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined\n' +
+      '    at join (node:path:1175:7)\n' +
+      '    at Object.<anonymous> (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/@nx+next@18.3.5_@babel+core@7.25.7_@babel+traverse@7.25.7_@swc-node+register@1.8.0_@swc+core@_pgheyolhxs47a5dscxi5xta34a/node_modules/@nx/next/src/plugins/plugin.js:12:35)\n' +
+      '    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n' +
+      '    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n' +
+      '    at Module.load (node:internal/modules/cjs/loader:1208:32)\n' +
+      '    at Module._load (node:internal/modules/cjs/loader:1024:12)\n' +
+      '    at Module.require (node:internal/modules/cjs/loader:1233:19)\n' +
+      '    at require (node:internal/modules/helpers:179:18)\n' +
+      '    at Object.<anonymous> (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/@nx+next@18.3.5_@babel+core@7.25.7_@babel+traverse@7.25.7_@swc-node+register@1.8.0_@swc+core@_pgheyolhxs47a5dscxi5xta34a/node_modules/@nx/next/plugin.js:4:16)\n' +
+      '    at Module._compile (node:internal/modules/cjs/loader:1358:14)',
+    code: 'ERR_INVALID_ARG_TYPE',
+    message: 'The "path" argument must be of type string. Received undefined'
+  },
+  plugin: '@nx/next/plugin',
+  name: 'LoadPluginError'
+}
+
+Node.js v20.15.0
+[NX Daemon Server] - 2024-10-06T19:47:54.498Z - Started listening on: /var/folders/hp/1g730b9s65jc7yw69ryrhzb40000gn/T/1982b39d47aa545d9c37/d.sock
+[NX Daemon Server] - 2024-10-06T19:47:54.500Z - [WATCHER]: Subscribed to changes within: /Users/god/__n1__/n1monorepo (native)
+[NX Daemon Server] - 2024-10-06T19:47:54.507Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:47:54.507Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-10-06T19:47:54.508Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:47:54.508Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-10-06T19:47:54.561Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-06T19:47:54.629Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Could not load plugin @nx/jest/plugin
+LoadPluginError: Could not load plugin @nx/jest/plugin
+    at loadNxPluginAsync (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/loader.js:208:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async load (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:26:30)
+    at async consumeMessage (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-10-06T19:47:54.629Z - Done responding to the client null
+[NX Daemon Server] - 2024-10-06T19:47:54.629Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 121. Response time: 0.
+[NX Daemon Server] - 2024-10-06T19:47:54.631Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-10-06T19:48:11.785Z - [WATCHER]: Stopping the watcher for /Users/god/__n1__/n1monorepo (sources)
+[NX Daemon Server] - 2024-10-06T19:48:11.785Z - [WATCHER]: Stopping the watcher for /Users/god/__n1__/n1monorepo (outputs)
+[NX Daemon Server] - 2024-10-06T19:48:25.026Z - Started listening on: /var/folders/hp/1g730b9s65jc7yw69ryrhzb40000gn/T/1982b39d47aa545d9c37/d.sock
+[NX Daemon Server] - 2024-10-06T19:48:25.027Z - [WATCHER]: Subscribed to changes within: /Users/god/__n1__/n1monorepo (native)
+[NX Daemon Server] - 2024-10-06T19:48:25.031Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:48:25.031Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-10-06T19:48:25.032Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:48:25.033Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-10-06T19:48:25.033Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-10-06T19:48:25.033Z - Handled FORCE_SHUTDOWN. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-06T19:48:25.033Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-10-06T19:48:25.033Z - [WATCHER]: Stopping the watcher for /Users/god/__n1__/n1monorepo (sources)
+[NX Daemon Server] - 2024-10-06T19:48:25.033Z - [WATCHER]: Stopping the watcher for /Users/god/__n1__/n1monorepo (outputs)
+[NX Daemon Server] - 2024-10-06T19:48:35.908Z - Started listening on: /var/folders/hp/1g730b9s65jc7yw69ryrhzb40000gn/T/1982b39d47aa545d9c37/d.sock
+[NX Daemon Server] - 2024-10-06T19:48:35.910Z - [WATCHER]: Subscribed to changes within: /Users/god/__n1__/n1monorepo (native)
+[NX Daemon Server] - 2024-10-06T19:48:35.918Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:48:35.919Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-10-06T19:48:35.920Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:48:35.920Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-10-06T19:48:35.971Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-06T19:48:36.041Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Could not load plugin @nx/jest/plugin
+LoadPluginError: Could not load plugin @nx/jest/plugin
+    at loadNxPluginAsync (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/loader.js:208:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async load (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:26:30)
+    at async consumeMessage (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-10-06T19:48:36.042Z - Done responding to the client null
+[NX Daemon Server] - 2024-10-06T19:48:36.042Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 121. Response time: 1.
+[NX Daemon Server] - 2024-10-06T19:48:36.043Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-10-06T19:49:16.658Z - [WATCHER]: _tmp_35082_8c0e34186bea773f0bfe6bec6a7afff6 was deleted
+[NX Daemon Server] - 2024-10-06T19:49:16.658Z - [WATCHER]: Processing file changes in outputs
+
+node:internal/process/promises:391
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+{
+  stack: 'LoadPluginError: Could not load plugin @nx/next/plugin\n' +
+    '    at loadNxPluginAsync (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/loader.js:208:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async load (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:26:30)\n' +
+    '    at async consumeMessage (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)',
+  message: 'Could not load plugin @nx/next/plugin',
+  cause: {
+    stack: 'TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined\n' +
+      '    at join (node:path:1175:7)\n' +
+      '    at Object.<anonymous> (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/@nx+next@18.3.5_@babel+core@7.25.7_@babel+traverse@7.25.7_@swc-node+register@1.8.0_@swc+core@_pgheyolhxs47a5dscxi5xta34a/node_modules/@nx/next/src/plugins/plugin.js:12:35)\n' +
+      '    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n' +
+      '    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n' +
+      '    at Module.load (node:internal/modules/cjs/loader:1208:32)\n' +
+      '    at Module._load (node:internal/modules/cjs/loader:1024:12)\n' +
+      '    at Module.require (node:internal/modules/cjs/loader:1233:19)\n' +
+      '    at require (node:internal/modules/helpers:179:18)\n' +
+      '    at Object.<anonymous> (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/@nx+next@18.3.5_@babel+core@7.25.7_@babel+traverse@7.25.7_@swc-node+register@1.8.0_@swc+core@_pgheyolhxs47a5dscxi5xta34a/node_modules/@nx/next/plugin.js:4:16)\n' +
+      '    at Module._compile (node:internal/modules/cjs/loader:1358:14)',
+    code: 'ERR_INVALID_ARG_TYPE',
+    message: 'The "path" argument must be of type string. Received undefined'
+  },
+  plugin: '@nx/next/plugin',
+  name: 'LoadPluginError'
+}
+
+Node.js v20.15.0
+[NX Daemon Server] - 2024-10-06T19:49:26.347Z - Started listening on: /var/folders/hp/1g730b9s65jc7yw69ryrhzb40000gn/T/1982b39d47aa545d9c37/d.sock
+[NX Daemon Server] - 2024-10-06T19:49:26.348Z - [WATCHER]: Subscribed to changes within: /Users/god/__n1__/n1monorepo (native)
+[NX Daemon Server] - 2024-10-06T19:49:26.355Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:49:26.355Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-10-06T19:49:26.356Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-10-06T19:49:26.356Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-10-06T19:49:26.409Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-06T19:49:26.480Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Could not load plugin @nx/jest/plugin
+LoadPluginError: Could not load plugin @nx/jest/plugin
+    at loadNxPluginAsync (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/loader.js:208:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async load (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:26:30)
+    at async consumeMessage (/Users/god/__n1__/n1monorepo/node_modules/.pnpm/nx@19.8.4_@swc-node+register@1.8.0_@swc+core@1.3.107_@swc+helpers@0.5.13__@swc+types@0.1.12_t_n4dcgmtxfycduzwzrcnhap2xhq/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-10-06T19:49:26.480Z - Done responding to the client null
+[NX Daemon Server] - 2024-10-06T19:49:26.480Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 124. Response time: 0.
+[NX Daemon Server] - 2024-10-06T19:49:26.481Z - Closed a connection. Number of open connections: 0
